@@ -6,6 +6,6 @@ public class TitleMenu : MonoBehaviour
     public void StartGame()
     {
         Debug.Log("Play button clicked!");
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("characters");  
     }
 }
